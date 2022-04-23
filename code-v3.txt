@@ -1,0 +1,58 @@
+b=1
+while 1:
+    a=88
+    for i in range(7):
+        hero.build("archer", 30, a)
+        if hero.isReady("push"):
+            hero.special("push", 12, 53)
+        a=a-10
+    if hero.isReady("push"):
+        hero.special("push", 12, 53)
+    hero.build("cannon", "A")
+    if hero.isReady("push"):
+        hero.special("push", 12, 53)
+    hero.build("cannon", "B")
+    hero.build("cannon","C")
+    if hero.isReady("push"):
+        hero.special("push", 12, 53)
+    hero.build("cannon","D")
+    hero.build("cannon","E")
+    if hero.isReady("push"):
+        hero.special("push", 12, 53)
+    hero.build("frost", 40, 18)
+    hero.build("archer",18,76)
+    if hero.isReady("push"):
+        hero.special("push", 12, 53)
+    hero.build("archer",18,28)
+    hero.build("mage",30,64)
+    if hero.isReady("push"):
+        hero.special("push", 12, 53)
+    hero.build("mage", 30, 40)
+    if hero.isReady("push"):
+        hero.special("push", 12, 53)
+    hero.build("archer",30,15)
+    hero.build("frost", 40, 88)
+    if hero.isReady("push"):
+        hero.special("push", 12, 53)
+    hero.build("cannon", 40, 78)
+    hero.build("frost", 40, 68)
+    if hero.isReady("push"):
+        hero.special("push", 12, 53)
+    hero.build("cannon", 40, 58)
+    hero.build("frost", 40, 48)
+    if hero.isReady("push"):
+        hero.special("push", 12, 53)
+    hero.build("cannon", 40, 38)
+    hero.build("frost", 40, 28)
+    if hero.isReady("push"):
+        hero.special("push", 12, 53)
+    hero.build("cannon", 40, 18)
+    hero.build("frost","H")
+    if hero.isReady("push"):
+        hero.special("push", 12, 53)
+    hero.build("frost","F")
+    if hero.isReady("push"):
+        hero.special("push", 12, 53)
+    b=b+1
+
+
